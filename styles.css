@@ -1,0 +1,83 @@
+:root{
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --font-size-para: 0.938rem;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width:1200px;
+    height:100%;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+}
+
+main{
+    width:45ch;
+}
+
+main h1{
+    color:var(--very-dark-magenta);
+}
+
+p{
+    font-size: var(--font-size-para);
+}
+
+footer{
+    display: flex;
+    padding:50px;
+    gap:30px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+font-size: 11px;
+text-align: center;
+position:absolute;
+bottom:5px;
+}
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
