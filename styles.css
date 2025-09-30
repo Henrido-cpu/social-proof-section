@@ -21,28 +21,42 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    line-height:1.5;
 }
 
 .main-container{
-    width:1200px;
     height:100%;
-    padding:100px;
+    padding:140px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 header{
+    width:100%;
     display: flex;
     justify-content:space-between;
+    flex:1.2;
 }
 
-main{
-    width:45ch;
+main p{
+    width:40ch;
+    color:var(--dark-grayish-magenta);
+    margin-bottom:50px;
 }
 
 main h1{
     color:var(--very-dark-magenta);
+    width:13ch;
+    font-size:3rem;
+    margin-bottom:20px;
 }
 
 p{
@@ -51,8 +65,17 @@ p{
 
 footer{
     display: flex;
-    padding:50px;
     gap:30px;
+    flex:1;
+}
+
+footer h2,footer h3{
+    font-size: var(--font-size-para);
+}
+
+footer h3{
+    color:var(--soft-pink);
+    margin-top:8px;
 }
 
 .card-header{
@@ -60,15 +83,72 @@ footer{
     align-items: center;
 }
 
+header section ul{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    gap:9px;
+    
+}
+
+header section ul li{
+    width:fit-content;
+    align-self: flex-start;
+    background: var(--light-grayish-magenta);
+    padding:15px 30px;
+    padding-right:40px;
+    border-radius:10px;
+    color:var(--very-dark-magenta);
+    font-weight: 700;
+    min-width:400px;
+    display:flex;
+}
+
+header section img{
+    margin-right:5px;
+    width:15px;
+}
+
+header section img:nth-last-child(1){
+    margin-right:30px;
+}
+
+li:nth-of-type(2){
+    align-self:center;
+}
+
+li:nth-of-type(3){
+    align-self: flex-end;
+}
+
+.card{
+    background: var(--very-dark-magenta);
+    color:white;
+    padding:30px;
+    border-radius:8px;
+    align-self: center;
+    flex:0 1 auto;
+    
+}
 
 
+footer img{
+    border-radius:50%;
+    margin-right:30px;
+    width:40px;
+}
 
+footer p{
+    margin-top:20px;
+}
 
+footer .card:nth-child(1){
+    align-self: flex-start;
+}
 
-
-
-
-
+footer .card:nth-child(3){
+    align-self: flex-end;
+}
 
 
 .attribution {
