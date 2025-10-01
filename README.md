@@ -32,7 +32,7 @@ Users should be able to:
 
 ![](images/henrido-cpu.github.io_social-proof-section_%20(1).png)
 
-![](images/henrido-cpu.github.io_social-proof-section_.png)
+![](images/127.0.0.1_5500_index.html%20(2).png)
 
 ### Links
 

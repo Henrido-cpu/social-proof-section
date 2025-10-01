@@ -52,11 +52,13 @@ header{
 main p{
     width:40ch;
     color:var(--dark-grayish-magenta);
-    margin:auto auto 50px 0;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     flex:auto;
+    justify-content: center;
 }
 
 header section{
@@ -67,7 +69,7 @@ main h1{
     color:var(--very-dark-magenta);
     width:13ch;
     font-size:3rem;
-    margin:auto auto 50px 0;
+    margin:0 0 30px 0;
 }
 
 p{
@@ -95,6 +97,10 @@ footer h3{
 .card-header{
     display: flex;
     align-items: center;
+}
+
+header section{
+    display: flex;
 }
 
 header section ul{
